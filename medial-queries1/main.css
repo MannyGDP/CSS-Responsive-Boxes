@@ -1,22 +1,36 @@
 body {
-  background: blanchedalmond;
+  margin: 0;
   text-align: center;
-  line-height: 3;
+  line-height: 1;
 }
-
+h1 {
+  margin: 2;
+}
 .header {
-  background-color: blue;
-}
-.navigation {
-  background-color: rgb(255, 94, 0);
-  line-height: 15;
+  background-color: brown;
 }
 .main {
-  background-color: rgb(151, 74, 229);
+  background-color: rgb(242, 138, 10);
+  line-height: 15;
 }
-@media (max-width: 500px) {
+.aside {
+  background-color: blueviolet;
+}
+@media (min-width: 600px) {
   .container {
-    display: flex;
-    flex-direction: column;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
   }
-}
+   .header, .footer {
+          width:100%;
+      }
+  .main {
+          flex: 4;
+      }
+  .aside {
+          flex: 1;
+
+      }
+  }
+

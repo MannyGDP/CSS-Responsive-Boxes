@@ -1,3 +1,51 @@
 body {
-  background: papayawhip;
+  margin: 5;
+  text-align: center;
+  line-height: 5;
 }
+h1{
+  margin: 0;
+}
+.header {
+  background-color: brown;
+}
+.main {
+  background-color: rgb(242, 138, 10);
+}
+.aside {
+  background-color: blueviolet;
+}
+.bottom {
+  background-color: #1c0adb;
+}
+.mid {
+  background-color: rgb(242, 138, 10);
+}
+.foot {
+  background-color: aquamarine;
+}
+/*@media (min-width: 600px) {
+  .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .header, .foot {
+          width:100%;
+      }
+  .main {
+          flex: 4;
+      }
+  .aside {
+          flex: 2;
+      }
+  .mid {
+    flex: 1;
+    display: none;
+      }
+  .bot, .foot {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+  }
