@@ -15,37 +15,12 @@ h1{
 .aside {
   background-color: blueviolet;
 }
-.bottom {
+.bot {
   background-color: #1c0adb;
 }
 .mid {
-  background-color: rgb(242, 138, 10);
+  background-color: #1c0adb;
 }
 .foot {
   background-color: aquamarine;
 }
-/*@media (min-width: 600px) {
-  .container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-  }
-  .header, .foot {
-          width:100%;
-      }
-  .main {
-          flex: 4;
-      }
-  .aside {
-          flex: 2;
-      }
-  .mid {
-    flex: 1;
-    display: none;
-      }
-  .bot, .foot {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-  }
