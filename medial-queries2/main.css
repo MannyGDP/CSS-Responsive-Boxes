@@ -7,20 +7,21 @@ h1{
   margin: 0;
 }
 .header {
-  background-color: brown;
+    background-color: brown;
+}
+.navigation {
+    background-color: aquamarine;
 }
 .main {
-  background-color: rgb(242, 138, 10);
+    background-color: rgb(242, 138, 10);
+    line-height: 15;
 }
 .aside {
-  background-color: blueviolet;
+    background-color: blueviolet;
 }
-.bot {
-  background-color: #1c0adb;
+.footer {
+    background-color: blue;
 }
-.mid {
-  background-color: #1c0adb;
-}
-.foot {
-  background-color: aquamarine;
+.bottom {
+  background-color: black;
 }
