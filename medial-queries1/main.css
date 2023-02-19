@@ -1,36 +1,42 @@
 body {
-  margin: 0;
+  margin: 5;
   text-align: center;
-  line-height: 1;
+  line-height: 3;
 }
 h1 {
-  margin: 2;
+  margin: 0;
 }
 .header {
-  background-color: brown;
+  background-color: blueviolet;
 }
-.main {
-  background-color: rgb(242, 138, 10);
-  line-height: 15;
+.navigation {
+background-color: brown;
+line-height: 15;
 }
 .aside {
-  background-color: blueviolet;
+  background-color: aquamarine;
 }
 @media (min-width: 600px) {
   .container {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      justify-content: space-between;
   }
-   .header, .footer {
-          width:100%;
-      }
-  .main {
-          flex: 4;
-      }
+  .header {
+    width: 100%;
+  }
+  .navigation {
+    flex: 600;
+    height: 600px;
+  }
   .aside {
-          flex: 1;
-
-      }
+    flex: 300;
+  }
+  .article {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
   }
 
+}
