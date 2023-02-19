@@ -5,11 +5,7 @@ body {
   line-height: 5;
 }
 
-.div1 {
-  height: 200px;
-  width: 45%;
-}
-.header , .navigation , .main , .aside , .div1  {
+.header , .navigation , .main , .aside , .div1 , .div2  {
     background-color: brown;
     margin: 10px;
 }
@@ -26,10 +22,6 @@ body {
     width:1023px;
     height:400px;
 }
-.main {
-    background-color: rgb(242, 138, 10);
-    width:50%;
-}
 .aside {
     background-color: blueviolet;
     float:right;
@@ -41,33 +33,30 @@ body {
     width:45%;
     margin:auto;
 }
+.main {
+  background-color: rgb(242, 138, 10);
+  width: 45%;
+}
+.div1 {
+  width: 45%;
+}
 .div2 {
   background:green;
   width:45%;
 }
 .footer {
     background-color: rgb(255, 0, 204);
-    margin:0 auto;
-    padding:5px;
+    margin:0;
 }
 @media (min-width: 600px) {
 .container {
   display: flex;
- /* flex-direction: row;*/
   flex-wrap: wrap;
 }
-.header, .footer {
-  width:100%;
+.header{
+  width:1540px;
 }
-/*.navigation{
-  flex: 8;
-}*/
-.main {
-  width:45%;
-
+.footer{
+  width:1540px;
 }
-/*.aside {
-  flex: 2;
-  justify-content: space-between;
-}*/
 }
