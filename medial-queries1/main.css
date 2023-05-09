@@ -1,5 +1,5 @@
 body {
-  margin: 5;
+  margin: 0;
   text-align: center;
   line-height: 3;
 }
@@ -19,9 +19,10 @@ line-height: 15;
 @media (min-width: 600px) {
   .container {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-between;
+      height: 100vh;
   }
   .header {
     width: 100%;
@@ -29,6 +30,9 @@ line-height: 15;
   .navigation {
     flex: 600;
     height: 600px;
+  }
+  .main {
+    
   }
   .aside {
     flex: 300;
