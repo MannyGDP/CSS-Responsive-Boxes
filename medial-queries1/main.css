@@ -1,46 +1,37 @@
+*{
+  outline: 1px solid red
+}
 body {
   margin: 0;
   text-align: center;
   line-height: 3;
 }
-h1 {
-  margin: 0;
-}
-.header {
-  background-color: blueviolet;
-}
-.navigation {
-background-color: brown;
-line-height: 15;
-}
-.aside {
-  background-color: aquamarine;
-}
+
 @media (min-width: 600px) {
   .container {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(237, 249, 5);
+    justify-content: flex-start;
+    height: 50vh;
   }
-  .header {
+  .a {
     width: 100%;
+    background-color: blueviolet;
+    line-height: 5;
+    border: 5px solid goldenrod;
   }
-  .navigation {
-    flex: 600;
-    height: 600px;
+  .b {
+    background-color: brown;
+    line-height: 15;
+    width: 74%;
+    border: 5px solid goldenrod;
   }
-  .main {
-    
-  }
-  .aside {
-    flex: 300;
-  }
-  .article {
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-  }
-
+  .c {
+    background-color: rgb(56, 95, 235);
+    line-height: 15;
+    width: 25%;
+    border: 5px solid goldenrod;
+}
 }
