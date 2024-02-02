@@ -1,5 +1,6 @@
 
 body {
+  background: yellow;
   margin: 0;
   text-align: center;
   line-height: 5;
@@ -42,6 +43,10 @@ body {
 }
 .div2 {
   background:green;
+  width:45%;
+}
+.div3 {
+  background:rgb(105, 127, 213);
   width:45%;
 }
 .footer {
