@@ -1,67 +1,39 @@
-
+* {
+  border: 1px solid teal;
+}
 body {
-  background: yellow;
+  background: rgb(8, 247, 187);
   margin: 0;
   text-align: center;
-  line-height: 5;
 }
 
-.header , .navigation , .main , .aside , .div1 , .div2  {
-    background-color: brown;
-    margin: 10px;
+.a {
+  background: red;
+  height: 50px;
+  margin-top: 5px;
 }
 
-.main-container{
-  display:flex;
-  align-items: center;
-  margin:0 auto;
-  padding:5px;
+.b {
+  background: yellow;
+  height: 150px;
+  margin-top: 5px;
+}
 
+.container-two {
+  display: inline-flex;
+  height: 50px;
+  width: 100vw;
+  margin-top: 5px;
 }
-.navigation {
-    background-color: rgb(255, 127, 127);
-    width:1023px;
-    height:400px;
+
+.c, .d, .e {
+  background: thistle;
+  width: 100vw;
+  margin-inline: 5px;
 }
-.aside {
-    background-color: blueviolet;
-    float:right;
-    position: relative;
-    height:800px;
-    top:-410px;
-    right:-500px;
-    padding-bottom:10px;
-    width:45%;
-    margin:auto;
-}
-.main {
-  background-color: rgb(242, 138, 10);
-  width: 45%;
-}
-.div1 {
-  width: 45%;
-}
-.div2 {
-  background:green;
-  width:45%;
-}
-.div3 {
-  background:rgb(105, 127, 213);
-  width:45%;
-}
+
 .footer {
-    background-color: rgb(255, 0, 204);
-    margin:0;
-}
-@media (min-width: 600px) {
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.header{
-  width:1540px;
-}
-.footer{
-  width:1540px;
-}
+  background: rgb(229, 4, 249);
+  height: 50px;
+  margin-top: 5px;
 }
