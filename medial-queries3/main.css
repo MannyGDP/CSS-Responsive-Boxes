@@ -1,3 +1,64 @@
 body {
-  background: peachpuff;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+* {
+  border: 1px solid rgb(2, 208, 249);
+}
+
+.container {
+  background: yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container > * {
+  margin: 10px;
+}
+
+.main > div {
+  margin: 10px;
+}
+
+header {
+  background: red;
+  flex-grow: 1;
+  min-height: 15vh;
+}
+
+main {
+  background: blue;
+  flex-grow: 3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main > div {
+  flex-grow: 1;
+  min-width: 30%;
+}
+
+footer {
+  background: purple;
+  flex-grow: 1;
+}
+
+@media(min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header {
+    width: 100%;
+  }
+
+  footer {
+    min-height: 65vh;
+  }
 }
