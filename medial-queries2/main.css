@@ -41,7 +41,7 @@ main {
 
 main > div:first-child {
   background: gold;
-  width: 100vw;
+  width: 100%;
 }
 
 main > div:not(:first-child) {
@@ -51,4 +51,14 @@ main > div:not(:first-child) {
 footer {
   background: purple;
   flex-grow: 1;
+}
+
+@media(min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header {
+    width: 100%;
+  }
 }
